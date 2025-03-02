@@ -13,16 +13,27 @@ Path: ebravo/Practice/aspNET
     - Improved the way we interact with REST API's
 
 ## .NET
-Given this is a tutorial, there will be many notes on the steps taken to achieve this backened, as well as, terminal commands and what htey do.
+Given this is a tutorial, there will be many notes on the steps taken to achieve this backened, as well as, terminal commands and what they do.
 
-### Start:
-- dotnet new list
-    - this gives you the full list of applications that you can create with your local SDK installation
-    - Another way you can go about this is View>Command Pallette (ctrl shift P) then type ".NET New Project"
-    - Here we are selecting ASP.NET Core Empty
+### Set-up:
+- Create **dotnet new list** for your project
+    - View > Command Pallette (ctrl shift P) then type **".NET New Project"**
+    - Here we are selecting **ASP.NET Core Empty**
 
-- After selecting "ASP.NET Core Empty, name the file NAME.Api
+- After selecting **"ASP.NET Core Empty"**, name the file NAME.Api
     - In this case GameStore.Api
+
+- Build
+    - In **Solution Explorer**, right click NAME.Api and select **"build"** 
+
+## Start:
+
+- Run App (Via Debugger)
+    - Hit **F5** key while NO tabs open, then select **C#**, then select the **Default Configuration**
+    - This will kick off the application with the debuggerand open your browser. This kicks off the **Get** request in the 
+
+    Sometimes you don't want to run the Debugger to save time. 
+    - In **Solution Explorer**, right click NAME.Api > Debug > Start without Debugging
 
 ## Files
 
